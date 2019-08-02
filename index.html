@@ -1,0 +1,182 @@
+<html>
+<head>
+  <title> Natalie </title>
+    <link rel = "stylesheet" href = "styling.css">
+    <script src = "website_javascript.js"></script>
+  </head>
+  <body>
+    <div class = "color" onclick = "change_div_color()">
+    <h1> Keeping up with Nat </h1>
+    <img class="center" src = "kiss.png", width = 100, height = 100>
+    <p id="date"></p>
+
+    <script>
+
+    var d = new Date();
+  document.getElementById("date").innerHTML = d;
+    </script>
+</div>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial;}
+
+
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+
+.tab button:hover {
+  background-color: #ddd;
+}
+
+
+.tab button.active {
+  background-color: #ccc;
+}
+
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+</style>
+</head>
+<body>
+
+<h2>Menu</h2>
+
+
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'Basic Information')">Basic Information</button>
+  <button class="tablinks" onclick="openCity(event, 'About Her')">About Her</button>
+  <button class="tablinks" onclick="openCity(event, 'Favorite Shows on Netflix')">Favorite Shows on Netflix</button>
+  <button class="tablinks" onclick="openCity(event, 'Random Facts About Nat')">Random Facts About Nat</button>
+  <button class="tablinks" onclick="openCity(event, 'Gallery')">Gallery</button>
+  <button class="tablinks" onclick="openCity(event, 'Social Media')">Social Media</button>
+  <button class="tablinks" onclick="openCity(event, 'Favorite Links')">Favorite Links</button>
+</div>
+
+<div id="Basic Information" class="tabcontent">
+  <h2> Basic Information</h2>
+  <p> The purpose of the website is to give you the latest
+  updates, news, and gossip about Natalie Bran.  </p>
+</div>
+
+<div id="About Her" class="tabcontent">
+  <h2> About Her</h2>
+<p> Natalie Bran is currently 16 years old. Her birthday is May 5th so she is a Taurus. She lives in Inwood,NY.
+  She attends Lawrence High School
+  in Cedarhurst, New York. She has a little brother who is 14 years old.
+  Her favorite colors are black and blue.</p>
+  <img src = "greenoutfit.jpeg", class="thumbnail" width = 300./>
+</div>
+
+<div id="Favorite Shows on Netflix" class="tabcontent">
+  <h2> Favorite Shows on Netflix </h2>
+  <p> Natalie is obsesssed with Netflix. It takes up most of her time. She uses it as a
+    distraction to avoid talking to actual humans but we still love her! </p>
+        <u3> Here is the list : <u3>
+
+
+  <u1 style = "list-style-type : circle">
+    <li>The Office</li>
+    <li>Gossip Girl</li>
+    <li>Lucifer</li>
+    <li>Stranger Things</li>
+    <li> That 70's Show </li>
+    <li> Jane the Virgin </li>
+    <li> Glee </li>
+    <li> The Vampire Diaries </li>
+    <li> The Fosters </li>
+    <li> Once Upon a Time </li>
+    <p> She watches so many shows that do not even fit in the list so we will name the rest here! The Good Place, You, On my Block, The End of The F***ing World,
+      Legacies, Good Trouble, Reign, Supergirl, Insatiable, The Carrie Diaries, Young and Hungry, Love Island,  Riverdale, Elite, and Trinkets. </p>
+    <img src = "netflix.png", width = 300 >
+    <p> gosh the girl is killing us here :( </p>
+    </u1>
+
+</div>
+<div id="Random Facts About Nat" class="tabcontent">
+  <h2> Random Facts About Nat </h2>
+    <img src= "only.gif", width = 300>
+  <p> We got the inside scoop on Natalie at all times. Our inside reporter finds out things nobody knows about her!
+    This is your #1 source for all things Nat. </p>
+    <ol type =  "1" >
+        <li>In additon to shellfish, Nat is allergic to dust and cockroaches.</li>
+        <li>Natalie loves to give back! She volunteers for the National Center for Missing and Exploited Children.
+        </li>
+
+        <li> Natalie loves to dance. She is a part of her dance department at school and loves making up dances. </li>
+        <li> If you couldn't tell already, Natalie loves to shop! In her free time you will most likely find her at the mall! </li>
+        <li> Natalie loves to travel! Her favorite places to go are Honduras and Grand Cayman! </li>
+    </ol>
+
+</div>
+<div id="Gallery" class="tabcontent">
+  <h2> Gallery </h2>
+  <div class="row">
+<table style = "width : 100%">
+<tr>
+<div class = "thumbnail">
+<td><img src="bff.jpeg" class="thumbnail" style="width:300"/>
+<td><img src="image2.jpeg"  class="thumbnail" style="width:300"/>
+<td><img src= "bridge.jpeg"  class="thumbnail" style="width:300"/>
+<td><img src="snap.jpeg"  class="thumbnail" style="width:300"/>
+
+</tr>
+</table>
+
+  </div>
+</div>
+
+<div id="Social Media" class="tabcontent">
+  <h2> Social Media  </h2>
+
+  <a href = "https://www.instagram.com/natalie_bran/?hl=en"> nat's insta - natalie_bran </a>
+  <p></p>
+  <a href = "https://www.vsco.co/nataliebran1"> nat's vsco - nataliebran1 </a>
+  <p><p>
+  <img src="image1.jpeg"  style="width:300">
+<p>XOXO, Gossip Girl </p>
+
+<div id="Favorite Links" class="tabcontent">
+  <h2> Favorite Links </h2>
+  <p> Our sources tell us that these are some of Natalie's favorite links. Enjoy ! </p>
+  <h3>Cool Math Games <h3>
+    <a href = "https://www.coolmathgames.com/"> </a>
+  </div>
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+
+</body>
+</html>

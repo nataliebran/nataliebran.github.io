@@ -1,0 +1,36 @@
+body {
+
+  background-color: #ffcccc ;
+  font-family: Lucida Console,Lucida Sans Typewriter,monaco,Bitstream Vera Sans Mono,monospace;
+
+}
+.thumbnail:hover {
+    position:relative;
+    top:-25px;
+    left:-35px;
+    width:500px;
+    height:auto;
+    display:block;
+    z-index:999;
+}
+.center {
+  display: block;
+  margin: auto;
+
+}
+
+.rotate{
+  transform : rotate(90deg);
+  margin : 50 ;
+
+
+}
+h1 {
+   text-align : center;
+
+   }
+script {
+  text-align : center;
+}
+
+}
