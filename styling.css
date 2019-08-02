@@ -19,6 +19,13 @@ body {
 
 }
 
+.centerdate {
+  display: block;
+  margin: auto;
+  width: 350px;
+  margin: 30px auto 0px auto;
+}
+
 .rotate{
   transform : rotate(90deg);
   margin : 50 ;
